@@ -115,6 +115,10 @@ img {
   width: auto;
 }
 
+._4col {
+  width:33.33%;
+}
+
 /*Spacing*/
 
 ._m0 {
@@ -324,12 +328,8 @@ nav ul li:first-child {
 .logo {
   font-family: var(--font-sans);
   font-size: 1.25rem;
-  line-height: 100%;
+  line-height: 130%;
   font-weight:600;
-}
-
-p:has(.logo) {
-  width: 36%;
 }
 
 .button-icon-inverted path{
