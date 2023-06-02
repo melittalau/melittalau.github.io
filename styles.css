@@ -12,6 +12,7 @@
 html {
   background-color: var(--color-white);
   color: var(--color-black);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -237,6 +238,7 @@ img {
 
 ._grey{color: var(--color-dark-grey);}
 ._white{color: var(--color-white);}
+._pink{color: var(--color-special);}
 
 nav ul,
 h1,
