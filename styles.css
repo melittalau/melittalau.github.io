@@ -1,6 +1,6 @@
 :root {
   --font-special: "Caveat Brush", sans-serif;
-  --font-sans: "Source Sans Pro", sans-serif;
+  --font-serif: "Source Serif Pro", serif;
   --color-special: #ff6483;
   --color-black: #1a1a1a;
   --color-white: #ffffff;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.125rem;
   line-height: 160%;
   margin: 0;
@@ -33,6 +33,8 @@ img {
 .article{
     margin-top: 1rem; 
     margin-bottom: 2rem;
+    display:flex;
+    flex-direction: column;
 }
 
 /* ---------------Behavior--------------- */
@@ -75,6 +77,11 @@ img {
 ._content-center {
   justify-content: center;
 }
+
+._content-right {
+  justify-content: right;
+}
+
 ._wrap {
   flex-wrap: wrap;
 }
@@ -255,10 +262,14 @@ p {
   margin-block-end: 0em;
 }
 
+ul{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 h1 {
   font-size: 1.75rem;
   line-height: 130%;
-  font-family: var(--font-sans);
 }
 
 h1 span {
@@ -270,7 +281,6 @@ h1 span {
 h2, h3 {
   font-size: 1.5rem;
   line-height: 130%;
-  font-family: var(--font-sans);
 }
 
 p {
@@ -283,7 +293,6 @@ a {
   transition: all 0.15s ease;
   cursor: pointer;
   color: #1a1a1a;
-  font-family: var(--font-sans);
 }
 
 a:hover {
@@ -294,15 +303,14 @@ a:hover {
   font-size: 1.5rem;
   line-height: 160%;
   font-style: italic;
+  font-family:var(--font-serif);
 }
 
 .tag {
-  font-family: var(--font-sans);
   font-size: 1.125rem;
 }
 
 .footnote {
-  font-family: var(--font-sans);
   font-size: 0.875rem;
   line-height: 130%;
 }
@@ -326,7 +334,6 @@ nav ul li:first-child {
 }
 
 .logo {
-  font-family: var(--font-sans);
   font-size: 1.25rem;
   line-height: 130%;
   font-weight:600;
