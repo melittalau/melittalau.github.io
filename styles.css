@@ -1,6 +1,6 @@
 :root {
-  --font-special: "Caveat Brush", sans-serif;
-  --font-serif: "Source Serif Pro", serif;
+  --font-special: 'Kite One', sans-serif;
+  --font-serif: 'Source Serif Pro', serif;
   --color-special: #ff6483;
   --color-black: #1a1a1a;
   --color-white: #ffffff;
@@ -335,8 +335,9 @@ nav ul li:first-child {
 
 .logo {
   font-size: 1.25rem;
-  line-height: 130%;
+  line-height: 160%;
   font-weight:600;
+  font-family:(--font-special);
 }
 
 .button-icon-inverted path{
