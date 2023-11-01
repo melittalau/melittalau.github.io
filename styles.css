@@ -73,10 +73,16 @@ img {
   border-radius: .5rem;
 }
 
+._select-none {user-select:none;}
+
 /* Flexbox */
 
 ._flex {
   display: flex;
+}
+
+._block {
+  display: block;
 }
 
 ._align-center {
@@ -215,6 +221,10 @@ img {
 }
 
 /*Flexgap*/
+
+._gap05 {
+  gap: 0.5rem;
+}
 
 ._gap1 {
   gap: 1rem;
@@ -400,8 +410,8 @@ nav ul li:first-child {
 }
 
 .logo {
-  font-size: 1.25rem;
-  line-height: 160%;
+  font-size: 1.375rem;
+  line-height: 100%;
   font-weight: 600;
 }
 
@@ -551,7 +561,7 @@ nav ul li:first-child {
 
   .hero {
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
 
   .hero img {
