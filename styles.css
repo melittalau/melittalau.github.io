@@ -258,6 +258,7 @@ img {
 /*Buttons*/
 
 ._button{
+  display:inline-block;
 padding: 1rem 1.75rem;
 color: var(--color-white);
 background-color: var(--color-black);
@@ -574,7 +575,7 @@ nav ul li:first-child {
 
   .hero {
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .hero img {
