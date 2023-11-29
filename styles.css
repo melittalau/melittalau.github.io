@@ -1,6 +1,6 @@
 :root {
-  --font-special: 'Kite One', sans-serif;
-  --font-serif: 'Source Serif Pro', serif;
+  --font-special: 'Neuton', serif;
+  --font-serif: 'Neuton', serif;
   --color-special: #ff6483;
   --color-black: #1a1a1a;
   --color-white: #ffffff;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.125rem;
   line-height: 160%;
   margin: 0;
@@ -359,7 +359,7 @@ ul {
 
 h1 {
   font-size: 2rem;
-  line-height: 130%;
+  line-height: 110%;
   font-family: var(--font-special);
   font-weight: 400;
 }
@@ -367,7 +367,7 @@ h1 {
 h2,
 h3 {
   font-size: 1.5rem;
-  line-height: 130%;
+  line-height: 120%;
   font-family: var(--font-special);
   font-weight: 400;
 }
@@ -375,6 +375,10 @@ h3 {
 p {
   font-size: 1.125rem;
   line-height: 160%;
+}
+
+.txt-large{
+  font-size: 1.25rem;
 }
 
 a {
@@ -388,11 +392,10 @@ a:hover {
   color: var(--color-special);
 }
 
-.large-italic {
+.txt-quote {
   font-size: 1.5rem;
   line-height: 160%;
   font-style: italic;
-  font-family: var(--font-serif);
 }
 
 .tag {
@@ -424,9 +427,11 @@ nav ul li:first-child {
 }
 
 .logo {
+  font-family: var(--font-special);
   font-size: 1.375rem;
   line-height: 100%;
-  font-weight: 600;
+  font-weight:700;
+  letter-spacing: -2px;
 }
 
 .button-icon-inverted path {
@@ -457,10 +462,15 @@ nav ul li:first-child {
 
 .hero h1 {
   font-family: var(--font-special);
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 100%;
   position: relative;
+}
+
+.hero h1 a{
+  color: var(--color-special);
+  display:inline-flex;
 }
 
 .img-absolute {
@@ -686,7 +696,7 @@ nav ul li:first-child {
   }
 
   .hero h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 
   h1 {
